@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="spotify.css">
+    <link rel="stylesheet" href="utility.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container flex bg-black">
+        <div class="left border bg-black">
+            <div class="home bg-grey rounded m-1 p-1">
+                <div class="logo"><img src="spotify.png" alt="spotify image" width="54px"></div>
+                <ul>
+                    <li><img src="home.png" alt="Home" width="24px" height="24px">Home</li>
+                    <li><img src="search.png" alt="Search" width="24px">Search</li>
+                </ul>
+            </div>
+            <div class="library bg-grey rounded m-1 p-1">
+                <div class="heading">
+                    <img src="library.png" alt="Library" width="24px">
+                    <h2>
+                        Your Library
+                    </h2>
+                </div>
+            </div>
+            <div class="footer">
+                <div><span>Legal</span></div>
+                <div><span>Privacy Centre</span></div>
+                <div><span>Privacy Policy</span></div>
+                <div><span>Cookies</span></div>
+                <div><span>About Ads</span></div>
+                <div><span>Accessibility</span></div>
+            </div>
+        </div>
+        <div class="right bg-grey rounded">
+            <div class="header">
+                <div class="nav">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" color="#000000"
+                        fill="none">
+                        <path d="M11.5 18C11.5 18 5.50001 13.5811 5.5 12C5.49999 10.4188 11.5 6 11.5 6" stroke="#000000"
+                            stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <path d="M18.5 18C18.5 18 12.5 13.5811 12.5 12C12.5 10.4188 18.5 6 18.5 6" stroke="#ffffff"
+                            stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" color="#000000"
+                        fill="none">
+                        <path d="M12.5 18C12.5 18 18.5 13.5811 18.5 12C18.5 10.4188 12.5 6 12.5 6" stroke="#ffffff"
+                            stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <path d="M5.50005 18C5.50005 18 11.5 13.5811 11.5 12C11.5 10.4188 5.5 6 5.5 6" stroke="#000000"
+                            stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                    </svg>
+                </div>
+                <div class="button">
+                    <button class="signupbtn">Sign up</button>
+                    <button class="loginbtn">Log in</button>
+                </div>
+            </div>
+            <div class="spotifyplaylist">
+                <h1>Trending Songs</h1>
+                <div class="cardContainer">
+                    <div class="card">
+                        <div class="play">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 492 492">
+                                <circle fill="#39BF46" cx="246" cy="246" r="246" />
+                                <path fill="#000" d="M320 246L180 146v200l140-100z" />
+                            </svg>
+                        </div>
+                        <img src="mohabbat.png" alt="">
+                        <h3>Aur Mahobbat Kitni </h3>
+                        <h3>karoon</h3>
+                        <p>Pritam,Arijit Sing,</p>
+                        <p>Sandeep Srivastava</p>
+                    </div>
+                </div>
+                <div class="playbar">
+                    <div class="songinfo">
+                    </div>
+                    <div class="songbuttons">
+                        <img class="invert" src="previous.png" alt="Previous" width="20px">
+                        <img class="invert" src="play.png" alt="play" width="20px">
+                        <img class="invert" src="next.png" alt="next" width="20px">
+                    </div>
+                    <div class="songtime">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="spotify.js"></script>
+</body>
+
+</html>
